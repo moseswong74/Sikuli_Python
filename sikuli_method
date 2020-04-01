@@ -1,0 +1,2 @@
+def sikuli_method(name, *args, **kwargs):
+  return sys.modules['sikuli.Sikuli'].__dict__[name](*args, **kwargs)
